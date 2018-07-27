@@ -1,6 +1,6 @@
 import cv2
 
-#0 is the representation of your camera, it starts from 0, number 1 is your second connected USB webcam
+#Change the name of video.mp4 to your filename
 camera = cv2.VideoCapture('video.mp4')
 
 #Videos are actually multiple frames processed frame-by-frame
