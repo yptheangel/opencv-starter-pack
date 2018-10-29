@@ -1,7 +1,5 @@
-Welcome to GitHub Pages
-
+##Current Repository Layout
 ```
-Current Repository Layout
 
 ├── _config.yml
 ├── cpp
