@@ -25,8 +25,9 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-#Current repository layout
-`
+
+###Current repository layout
+
 ├── _config.yml
 ├── cpp
 ├── python
@@ -53,7 +54,7 @@ Syntax highlighted code block
 │       └── resize_image.py
 └── README.md
 
-`
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
