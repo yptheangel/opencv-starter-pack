@@ -1,4 +1,36 @@
-## Welcome to GitHub Pages
+Welcome to GitHub Pages
+
+```
+Current Repository Layout
+
+├── _config.yml
+├── cpp
+├── python
+│   ├── basic
+│   │   ├── insert_text.py
+│   │   ├── open_image.py
+│   │   ├── open_video.py
+│   │   ├── open_webcam.py
+│   │   ├── picture.jpg
+│   │   ├── save_image.py
+│   │   ├── test.py
+│   │   └── video_writer.py
+│   ├── examples
+│   │   ├── face-detection
+│   │   │   ├── exercise
+│   │   │   │   └── exercise1.py
+│   │   │   ├── face-eyes-detection.py
+│   │   │   ├── haarcascade_eye.xml
+│   │   │   └── haarcascade_frontalface_default.xml
+│   │   └── image-processing
+│   │       └── image_process.py
+│   └── tools
+│       ├── argument_parser.py
+│       └── resize_image.py
+└── README.md
+
+
+```
 
 You can use the [editor on GitHub](https://github.com/yptheangel/cvstarterpack/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -26,33 +58,6 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-###Current repository layout
-
-├── _config.yml
-├── cpp
-├── python
-│   ├── basic
-│   │   ├── insert_text.py
-│   │   ├── open_image.py
-│   │   ├── open_video.py
-│   │   ├── open_webcam.py
-│   │   ├── picture.jpg
-│   │   ├── save_image.py
-│   │   ├── test.py
-│   │   └── video_writer.py
-│   ├── examples
-│   │   ├── face-detection
-│   │   │   ├── exercise
-│   │   │   │   └── exercise1.py
-│   │   │   ├── face-eyes-detection.py
-│   │   │   ├── haarcascade_eye.xml
-│   │   │   └── haarcascade_frontalface_default.xml
-│   │   └── image-processing
-│   │       └── image_process.py
-│   └── tools
-│       ├── argument_parser.py
-│       └── resize_image.py
-└── README.md
 
 
 
