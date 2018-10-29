@@ -25,6 +25,35 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+#Current repository layout
+`
+├── _config.yml
+├── cpp
+├── python
+│   ├── basic
+│   │   ├── insert_text.py
+│   │   ├── open_image.py
+│   │   ├── open_video.py
+│   │   ├── open_webcam.py
+│   │   ├── picture.jpg
+│   │   ├── save_image.py
+│   │   ├── test.py
+│   │   └── video_writer.py
+│   ├── examples
+│   │   ├── face-detection
+│   │   │   ├── exercise
+│   │   │   │   └── exercise1.py
+│   │   │   ├── face-eyes-detection.py
+│   │   │   ├── haarcascade_eye.xml
+│   │   │   └── haarcascade_frontalface_default.xml
+│   │   └── image-processing
+│   │       └── image_process.py
+│   └── tools
+│       ├── argument_parser.py
+│       └── resize_image.py
+└── README.md
+
+`
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
