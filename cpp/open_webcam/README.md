@@ -8,7 +8,7 @@ For my case, I am leveraging the opencv from Intel OpenVINO toolkit\
 I will run this in my terminal before my compilation,\
 `C:\Intel\openvino\bin\setupvars.bat`
 3. Configure the neccessary dependencies, for example, my system is using Visual Studio 14 2015 64bit OS\
-`cmake -G"Visual Studio 14 2015 Win64" ..`\
+`cmake -G"Visual Studio 14 2015 Win64" ..`
 4. Compile the app(May need to run twice because of process busy), the app will be inside "Debug" folder\
 `cmake --build . `
 
