@@ -4,11 +4,11 @@ import cv2
 camera = cv2.VideoCapture(0)
 
 #Videos are actually multiple frames processed frame-by-frame
-while True:
-	ret, frame = camera.read()
+while camera.isOpened():
+	_, frame = camera.read()
 	
 	cv2.imshow('My webcam stream',frame)
-	k = cv2.waitKey(1) & 0xFF
+	k = cv2.waitKey(1)
 	#if 'Q' is pressed the program will exits
 	if k == ord('q'):
 		break

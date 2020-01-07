@@ -1,10 +1,10 @@
 # Easy Example code snippets for OpenCV Python module
 
-# Common starter code for OpenCV python
-- [Basic code](https://github.com/yptheangel/cvstarterpack/tree/master/python/basic)
+# Common starter codes
+- [Basic functions](https://github.com/yptheangel/cvstarterpack/tree/master/python/basic)
+- [Save webcam frames to video](https://github.com/yptheangel/cvstarterpack/blob/master/python/basic/video_writer.py)
 - [Viola Jones Face Detection using Haar Cascades](https://github.com/yptheangel/cvstarterpack/tree/master/python/examples/face-detection)
-- [Open multiple webcam]()
-
+- [Open multiple webcams](https://github.com/yptheangel/cvstarterpack/blob/master/python/examples/multi-threading/open_multiWebcam.py)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

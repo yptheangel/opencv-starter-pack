@@ -5,10 +5,10 @@ camera = cv2.VideoCapture('video.mp4')
 
 #Videos are actually multiple frames processed frame-by-frame
 while True:
-	ret, frame = camera.read()
+	_, frame = camera.read()
 	
 	cv2.imshow('My video stream',frame)
-	k = cv2.waitKey(1) & 0xFF
+	k = cv2.waitKey(1)
 	#if 'Q' is pressed the program will exits
 	if k == ord('q'):
 		break
