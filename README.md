@@ -1,4 +1,4 @@
-# :computer::eyes: OpenCV Starter Pack
+# OpenCV Starter Pack
 
 ## Objective
 Provide Example codes and code snippets for OpenCV in Python, C++, Java(WIP)
