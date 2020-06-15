@@ -1,6 +1,6 @@
 # OpenCV Starter Pack
 
-## Objective
+## Objectives
 Provide Example codes and code snippets for OpenCV in Python, C++, Java(WIP)
 
 # Common starter codes
