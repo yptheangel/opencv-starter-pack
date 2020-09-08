@@ -5,7 +5,7 @@ camera = cv2.VideoCapture('video.mp4')
 
 # Videos are actually multiple frames processed frame-by-frame
 while True:
-    _, frame = camera.read()
+    isSuccess, frame = camera.read()
 
     cv2.imshow('My video stream', frame)
     k = cv2.waitKey(1)
