@@ -6,8 +6,7 @@ frame = cv2.imread('picture.jpg')
 # Converting the image to greyscale.
 img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) 
   
-# applying different thresholding  
-# techniques on the input image with 100 as threshold
+# Applying different thresholding techniques on the input image with 100 as a threshold value.
 
 # cv2.THRESH_BINARY: If pixel intensity is greater than the set threshold, value set to 255, else set to 0 (black).
 # cv2.THRESH_BINARY_INV: Inverted or Opposite case of cv2.THRESH_BINARY.
@@ -20,9 +19,7 @@ ret, thresh3 = cv2.threshold(img, 100, 255, cv2.THRESH_TRUNC)
 ret, thresh4 = cv2.threshold(img, 100, 255, cv2.THRESH_TOZERO) 
 ret, thresh5 = cv2.threshold(img, 100, 255, cv2.THRESH_TOZERO_INV) 
   
-# the window showing output images 
-# with the corresponding thresholding  
-# techniques applied to the input images 
+# The window showing output images with the corresponding thresholding techniques applied to the input images .
 cv2.imshow('Threshold Binary', thresh1) 
 cv2.imshow('Threshold Binary Inverted', thresh2) 
 cv2.imshow('Truncated Threshold', thresh3) 
