@@ -1,12 +1,13 @@
 import cv2
 import numpy as np
 
+# Image translation example
 if __name__ == '__main__':
     img = cv2.imread('cat.jpg')
 
     height, width, _ = img.shape
 
-    # shift 20 to the right and 50 to the bottom
+    # shift the image 20 pixels to the right and 50 pixels to the bottom
     M = np.float32(
         [
             [1, 0, 20],
