@@ -3,7 +3,7 @@ import cv2
 if __name__ == '__main__':
     img = cv2.imread('cat.jpg')
 
-    # resize image by 2 times
+    # resize image by 2 times larger of its original size
     img_resized_1 = cv2.resize(img, None, fx=2, fy=2, interpolation = cv2.INTER_CUBIC)
 
     # Alternative
@@ -14,3 +14,4 @@ if __name__ == '__main__':
     cv2.imshow('resized_1', img_resized_1)
     cv2.imshow('resized_2', img_resized_2)
     cv2.waitKey(0)
+   
