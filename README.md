@@ -5,6 +5,8 @@ Provide Example codes and code snippets for OpenCV in Python, C++, Java(WIP)
 
 ### Common starter codes
 - [Basic functions](python/basic)
+- [Image Transformation](python/examples/transformation)
+- [Image Thresholding](python/basic/threshold_image.py)
 
 ### Common real life applications
 - [Read frame from Threaded Camera Stream](python/examples/threadedVideoCapture)
