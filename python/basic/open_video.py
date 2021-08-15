@@ -10,7 +10,7 @@ while True:
     else:
         cv2.imshow('My video stream', frame)
         k = cv2.waitKey(30) # 30 is the delay between frames, you can reduce it if you want your video to play faster
-        if  k == 27 or k == ord('q'):  # Window will exit if 'Esc' or 'Q' keyis pressed
+        if  k == 27 or k == ord('q'):  # Window will exit if 'Esc' or 'Q' key is pressed
             break
 
 vcap.release() # Release the frames
