@@ -3,8 +3,14 @@
 ## Objectives
 Provide Example codes and code snippets for OpenCV in Python, C++, Java(WIP)
 
+### How to start?
+`pip install opencv-python`
+
 ### Common starter codes
 - [Basic functions](python/basic)
+    - [Open Video](python/basic/open_video.py)
+    - [Open Webcam](python/basic/open_webcam.py)
+    - [Open Image](python/basic/open_image.py)
 - [Image Transformation](python/examples/transformation)
 - [Image Thresholding](python/basic/threshold_image.py)
 
