@@ -1,19 +1,17 @@
 import cv2
 
-# Change the name of video.mp4 to your filename
-camera = cv2.VideoCapture('video.mp4')
+vcap = cv2.VideoCapture(r"yourvideo.mp4") # Change the name of video.mp4 to your filename
 
-# Videos are actually multiple frames processed frame-by-frame
+# A video is made of multiple frames, we process a video frame-by-frame
 while True:
-    isSuccess, frame = camera.read()
+    isSuccess, frame = vcap.read()
+    if not isSuccess:
+        print("frame lost")
+    else:
+        cv2.imshow('My video stream', frame)
+        k = cv2.waitKey(30) # 30 is the delay between frames, you can reduce it if you want your video to play faster
+        if  k == 27 or k == ord('q'):  # Window will exit if 'Esc' or 'Q' keyis pressed
+            break
 
-    cv2.imshow('My video stream', frame)
-    k = cv2.waitKey(1)
-    # if 'Q' is pressed the program will exits
-    if k == ord('q'):
-        break
-
-# Release the frames
-camera.release()
-# Destroy all windows
-cv2.destroyAllWindows()
+vcap.release() # Release the frames
+cv2.destroyAllWindows() # Destroy all windows
