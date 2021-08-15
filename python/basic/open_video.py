@@ -1,12 +1,13 @@
 import cv2
 
-vcap = cv2.VideoCapture("yourvideo.mp4") # Change the name of video.mp4 to your filename
+video = "yourvideo.mp4"
+vcap = cv2.VideoCapture(video) # Change the name of video.mp4 to your filename
 
 # A video is made of multiple frames, we process a video frame-by-frame
 while True:
     isSuccess, frame = vcap.read()
     if not isSuccess:
-        print("frame lost")
+        break
     else:
         cv2.imshow('My video stream', frame)
         k = cv2.waitKey(30) # 30 is the delay between frames, you can reduce it if you want your video to play faster
