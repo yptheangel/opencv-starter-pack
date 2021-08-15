@@ -1,6 +1,6 @@
 import cv2
 
-vcap = cv2.VideoCapture(r"yourvideo.mp4") # Change the name of video.mp4 to your filename
+vcap = cv2.VideoCapture("yourvideo.mp4") # Change the name of video.mp4 to your filename
 
 # A video is made of multiple frames, we process a video frame-by-frame
 while True:
