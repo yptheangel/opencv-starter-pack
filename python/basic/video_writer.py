@@ -1,32 +1,23 @@
 import cv2
 
-# using USB webcam number 1
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture(0)  # Use USB webcam first, if you have second webcam, change to 1 if necessary
 
-# You can save your video according to the same size as your webcam stream or hardcode the size you like
-# frame_width = int(cam.get(3))
-# frame_height = int(cam.get(4))
-# recorder = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M','J','P','G'),20, (frame_width,frame_height))
-
-# Saving the video in 640x480 size
+# You can save your video according to the size as your webcam stream or hardcode the size you like
+# Method 1
+# frame_width, frame_height = int(cam.get(3)), int(cam.get(4))
+# recorder = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 20, (frame_width, frame_height))
+# Method 2: Saving the video in 640x480 size
 recorder = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 20, (640, 480))
 
 while cam.isOpened():
-    # read the frames from the webcam
-    ret, frame = cam.read()
+    ret, frame = cam.read()  # read the frames from the webcam
     # save the frame and write to our output file
     recorder.write(frame)
-
-    # show the frames in a Windows
-    cv2.imshow('My Webcam', frame)
+    cv2.imshow('My Webcam Stream', frame)
     k = cv2.waitKey(1) & 0xFF
-    # if 'Q' is pressed, the programs exits
-    if k == ord('q'):
+    if k == 27 or k == ord('q'):  # if 'Esc' or 'Q' key is pressed, the programs exits
         break
 
-# release the webcam frames
-cam.release()
-# release the video recorder frames
-recorder.release()
-# destroy all windows
-cv2.destroyAllWindows()
+cam.release()  # release the webcam frames
+recorder.release()  # release the video recorder frames
+cv2.destroyAllWindows()  # destroy all windows
