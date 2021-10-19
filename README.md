@@ -31,5 +31,5 @@ Provide Example codes and code snippets for OpenCV in Python, C++, Java(WIP)
 - [Auto Image Stitching](python/examples/image_stitching/)
 <br>[![Image Stitching](assets/stitching.jpg)](python/examples/image_stitching/stitching.py)
 - [Warp transformation](python/examples/transformation/warping)
-<br>[![Original](assets/original.jpg)]
+<br>![Original](assets/original.jpg)
 <br>[![Warp tranformation](assets/warped.jpg)](python/examples/transformation/warping/warped.py)
