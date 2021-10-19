@@ -4,4 +4,8 @@ output. The edge map of some detectors includes explicit information about the p
 strength of edges, their orientation, and the scale.
 
 ## Example
-![image1.png](
+**original image**
+![Original Image](Edge_Detection/1.png)
+
+**edge detection result**
+![Edge Detected](Edge_Detection/Figure_1.png)
