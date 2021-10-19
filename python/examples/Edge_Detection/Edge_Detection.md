@@ -6,8 +6,8 @@ strength of edges, their orientation, and the scale.
 ## Example
 **Original image**
 
-![Original Image](opencv-starter-pack/python/examples/Edge_Detection/1.png)
+![Original Image](1.png)
 
 **Edge detection result**
 
-![Edge Detected](opencv-starter-pack/python/examples/Edge_Detection/Figure_1.png)
+![Edge Detected](Figure_1.png)
