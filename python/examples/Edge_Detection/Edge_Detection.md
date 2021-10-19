@@ -19,7 +19,9 @@ Provide the path of the image you want to use edge detection on and run the code
 _opencv_
 
 ### Running live_edge_detector.py
-Instead of providing an image, it detects edges of a video. In the `VideoCapture()` function either provide the path to the file or use camera to detect live feed.
+Instead of providing an image, it detects edges of a video. In the `VideoCapture()` function either provide the path to the file or use camera to detect live feed. 
+Press q to stop the program.
+
 Video are nothing but continous frames, it reads continuous frames apply edge detection on them and return continous edge detected frames
 
 
