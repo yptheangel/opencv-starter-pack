@@ -3,6 +3,8 @@ An edge detector accepts discrete, digitized images as input and produces an edg
 output. The edge map of some detectors includes explicit information about the position and
 strength of edges, their orientation, and the scale.
 
+Changing the threshold values in the code can improve the resulting edge detected image.
+
 ## Example
 **Edge detection result**
 
