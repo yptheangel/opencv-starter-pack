@@ -1,7 +1,7 @@
 import cv2
 
 # loading image
-logo = cv2.imread('starbucks-logo.png')
+logo = cv2.imread('starbucks-logo.jpg')
 logo_gray = cv2.cvtColor(logo, cv2.COLOR_BGR2GRAY)
 
 img = cv2.imread('starbucks.jpg')
