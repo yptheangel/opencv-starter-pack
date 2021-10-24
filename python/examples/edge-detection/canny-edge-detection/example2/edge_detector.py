@@ -1,8 +1,10 @@
+# example by "harshgtm01"
+
 import cv2
 import matplotlib.pyplot as plt
 
 # read the image
-image = cv2.imread(r'Edge Detection/1.png')
+image = cv2.imread(r'../../../../../assets/original.jpg')
 
 # convert it to grayscale image
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
