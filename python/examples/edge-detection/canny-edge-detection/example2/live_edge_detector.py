@@ -1,3 +1,4 @@
+# example by "harshgtm01"
 import cv2
 
 cap = cv2.VideoCapture(0)                   # Device index in most cases is 0, try -1 if 0 does not work for you
