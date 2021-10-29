@@ -35,3 +35,9 @@ Provide Example codes and code snippets for OpenCV in Python, C++, Java(WIP)
 <br>[![Warp tranformation](assets/warped.jpg)](python/examples/transformation/warping/warping.py)
 <br>[![Warp triangle tranformation](assets/warped_triangle.jpg)](python/examples/transformation/warping/warping.py)
  - [Stitch Video](python/examples/Video-Stitching)
+ ### Deployment 
+- [Streamlit example](python/deployment/streamlit/)  
+
+### Common functions
+- [Edge Detection](python/examples/edge-detection)  
+- [Warping](python/examples/transformation)  
