@@ -30,6 +30,8 @@ Provide Example codes and code snippets for OpenCV in Python, C++, Java(WIP)
 [![View frames side by side](assets/hstack.jpg)](python/basic/hstack.py)
 - [Auto Image Stitching](python/examples/image_stitching/)  
 [![Image Stitching](assets/stitching.jpg)](python/examples/image_stitching/stitching.py)
+- [Image inpainting](python/example/inpainting/main.py)
+[![Image inpainting](assets/inpainting-result.png)](python/example/inpainting/main.py)  
 
 ### Deployment 
 - [Streamlit example](python/deployment/streamlit/)  
