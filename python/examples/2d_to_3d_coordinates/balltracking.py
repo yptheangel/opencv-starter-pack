@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-calibration_data = np.load('/home/sudeesh/Technocrats/Task1/calibration_data.npz')
+calibration_data = np.load('path/to/calibration_data.npz')
 camera_matrix = calibration_data['mtx']
 dist_coeffs = calibration_data['dist']
 object_radius = 10 #assuming that we know the ball radius
